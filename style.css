@@ -47,7 +47,7 @@ h2 {
     font-size: 30px;
     font-weight: 300;
     line-height: 1.2;
-    font-family: monospace;
+    font-family: 'Oswald', sans-serif;
 }
 
 #bio {
@@ -81,7 +81,7 @@ p {
 }
 .menu {
     list-style: none;
-    font-family: fantasy;
+    font-family: 'Hachi Maru Pop', cursive;
     position: absolute;
     top: 10px;
     right : 30px;
@@ -100,4 +100,13 @@ p {
 }
 .links:hover {
     background-color: chartreuse;
+}
+html {
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+}
+.article:hover {
+    color: cadetblue;
 }
